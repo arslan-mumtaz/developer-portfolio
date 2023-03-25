@@ -36,9 +36,6 @@ function Navbar() {
             cursor: 'pointer',
             transform: 'translateY(-10px)',
             transition: 'color 0.3s',
-            position: "fixed",
-            top:"30px",
-            right: "30px",
             '&:hover': {
                 color: theme.primary,
             },
@@ -135,7 +132,7 @@ function Navbar() {
 
     return (
         <div className='navbar'>
-            <div  className='navbar--container'>
+            <div className='navbar--container'>
                 <h1 style={{ color: theme.secondary }}>
                     {shortname(headerData.name)}
                 </h1>
@@ -144,7 +141,6 @@ function Navbar() {
                     className={classes.navMenu}
                     onClick={handleDrawerOpen}
                     aria-label='Menu'
-                    id='navicon'
                 />
             </div>
             <Drawer
@@ -217,7 +213,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#education'
+                                to='/#resume'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -227,7 +223,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Education
+                                        Resume
                                     </span>
                                 </div>
                             </NavLink>
@@ -235,7 +231,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#skills'
+                                to='/#services'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -245,7 +241,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Skills
+                                        Services
                                     </span>
                                 </div>
                             </NavLink>
@@ -253,7 +249,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#projects'
+                                to='/#blog'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -263,7 +259,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Projects
+                                        Blog
                                     </span>
                                 </div>
                             </NavLink>

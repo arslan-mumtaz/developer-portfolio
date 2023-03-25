@@ -1,7 +1,7 @@
 export const contactsData = {
-    email: 'sreerag.rajan5@gmail.com',
-    phone: '+91 9663437669',
-    address: '412 Ground Floor, Indraprastha Colony, Sector 30-33, Faridabad, Haryana, 121003',
+    email: 'janedoe.test@gmail.com',
+    phone: '+915588776600',
+    address: 'Menlo Park, California, United States - 673822 ',
 
     sheetAPI: ''
 }

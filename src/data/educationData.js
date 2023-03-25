@@ -1,23 +1,23 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Ramjas College, Delhi University',
-        course: 'B.A. Honours History',
-        startYear: '2015',
-        endYear: '2018'
+        institution: 'Marble Hills Middle School',
+        course: 'Higher Secondary Education',
+        startYear: '2007',
+        endYear: '2015'
     },
     {
         id: 2,
-        institution: 'Delhi University',
-        course: 'M.A. History',
-        startYear: '2019',
-        endYear: '2021'
+        institution: 'Somerset School of Science',
+        course: 'Bachelor of Technology',
+        startYear: '2015',
+        endYear: '2019'
     },
     {
         id: 3,
-        institution: 'Masai School of Coding',
-        course: 'Fullstack Web-Development',
-        startYear: '2021',
+        institution: 'Hawking University, Cambridge',
+        course: 'Master of Technology',
+        startYear: '2019',
         endYear: 'Present'
     },
 ]
